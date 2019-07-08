@@ -1,0 +1,55 @@
+{
+  "brand": "Rolex",
+  "reference_number": "FAKE123",
+  "data_format_version": "0.1",
+  "generated_at_utc": "2019-07-08 05:30:00",
+  "filter_choices": {
+    "dial_color": [
+      [ "any", "Any" ],
+      [ "white", "White" ],
+      [ "black", "Black" ],
+      [ "green", "Green" ]
+    ],
+    "dial_markers": [
+      [ "any", "Any" ],
+      [ "stick", "Stick" ],
+      [ "dot", "Dot" ]
+    ],
+    "bezel_type": [
+      [ "any", "Any" ],
+      [ "fluted", "Fluted" ],
+      [ "sport", "Sport" ],
+      [ "smooth", "Smooth" ]
+    ],
+    "case_material": [
+      [ "any", "Any" ],
+      [ "silver", "Silver" ],
+      [ "gold", "Gold" ]
+    ],
+    "size": [
+      [ "any", "Any" ],
+      [ "small", "Small" ],
+      [ "big", "Big" ]
+    ],
+    "bracelet": [
+      [ "any", "Any" ],
+      [ "white_gold", "White Gold" ],
+      [ "stainless_steel", "Stainless Steel" ]
+    ],
+    "condition": [
+      [ "any", "Any" ],
+      [ "new", "New" ],
+      [ "old", "Old" ]
+    ],
+    "box_and_papers": [
+      [ "any", "Any" ],
+      [ "no_papers", "No Papers" ],
+      [ "all_papers", "All Papers" ]
+    ],
+    "modified": [
+      [ "any", "Any" ],
+      [ "no", "No" ],
+      [ "yes", "Yes" ]
+    ]
+  }
+}
