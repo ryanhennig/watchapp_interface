@@ -17,49 +17,85 @@
     "_comment3" : "The display text may be in a different language in the future",
     "filter_choices": {
       "dial_color": [
-        [ "any", "Any" ],
-        [ "white", "White" ],
-        [ "black", "Black" ],
-        [ "green", "Green" ]
+        ["mother_of_pearl", "Mother of Pearl"],
+        ["black",           "Black" ],
+        ["grey",            "Grey" ],
+        ["red",             "Red" ],
+        ["green",           "Green" ],
+        ["silver",          "Silver" ],
+        ["gold",            "Gold" ],
+        ["white",           "White" ]
       ],
       "dial_markers": [
-        [ "any", "Any" ],
-        [ "stick", "Stick" ],
-        [ "dot", "Dot" ]
+        ["stick",                        "Stick"],
+        ["dot_and_stick",                "Dot and Stick"],
+        ["roman_numerals",               "Roman Numerals"],
+        ["numbers",                      "Numbers"],
+        ["stick_and_numbers",            "Stick and Numbers"],
+        ["stick_and_roman_numerals",     "Stick and Roman Numerals"],
+        ["roman_numerals_and_numbers",   "Roman Numerals and Numbers"]
       ],
       "bezel_type": [
-        [ "any", "Any" ],
-        [ "fluted", "Fluted" ],
-        [ "sport", "Sport" ],
-        [ "smooth", "Smooth" ]
+        ["fluted_white_gold",      "Fluted White Gold"],
+        ["smooth_white_gold",      "Smooth White Gold"],
+        ["ceramic_sport",          "Ceramic Sport"],
+        ["stainless_steel_sport",  "Stainless Steel Sport"],
+        ["diamond_in_white_gold",  "Diamond in White Gold"],
+        ["diamond_in_yellow_gold", "Diamond in Yellow Gold"],
+        ["yellow_gold",            "Yellow Gold"],
+        ["smooth_stainless_steel", "Smooth Stainless Steel"]
       ],
       "case_material": [
-        [ "any", "Any" ],
-        [ "silver", "Silver" ],
-        [ "gold", "Gold" ]
+        ["white_gold",                      "White Gold"],
+        ["yellow_gold",                     "Yellow Gold"],
+        ["rose_gold",                       "Rose Gold"],
+        ["stainless_steel",                 "Stainless Steel"],
+        ["gold_and_stainless_steel",        "Gold and Stainless Steel"],
+        ["rose_gold_and_stainless_steel",   "Rose Gold and Stainless Steel"]
       ],
       "size": [
-        [ "any", "Any" ],
-        [ "small", "Small" ],
-        [ "big", "Big" ]
+        ["25", "25"],
+        ["26", "26"],
+        ["27", "27"],
+        ["28", "28"],
+        ["29", "29"],
+        ["30", "30"],
+        ["31", "31"],
+        ["32", "32"],
+        ["33", "33"],
+        ["34", "34"],
+        ["35", "35"],
+        ["36", "36"],
+        ["37", "37"],
+        ["38", "38"],
+        ["39", "39"],
+        ["40", "40"],
+        ["41", "41"],
+        ["42", "42"],
+        ["43", "43"],
+        ["44", "44"],
+        ["45", "45"]
       ],
       "bracelet": [
-        [ "any", "Any" ],
-        [ "white_gold", "White Gold" ],
-        [ "stainless_steel", "Stainless Steel" ]
+        ["gold_and_stainless_steel",       "Gold and Stainless Steel"],
+        ["rose_gold_and_stainless_steel",  "Rose Gold and Stainless Steel"],
+        ["white_gold",                     "White Gold"],
+        ["leather",                        "Leather"],
+        ["exotic_leather",                 "Exotic Leather"]
       ],
       "condition": [
-        [ "any", "Any" ],
-        [ "new", "New" ],
-        [ "old", "Old" ]
+        ["new",      "New"],
+        ["like_new", "Like New"],
+        ["good",     "Good"],
+        ["poor",     "Poor"]
       ],
       "box_and_papers": [
-        [ "any", "Any" ],
-        [ "no_papers", "No Papers" ],
-        [ "all_papers", "All Papers" ]
+        ["box",               "Box"],
+        ["papers",            "Papers"],
+        ["box_and_papers",    "Box and Papers"],
+        ["no_box_or_papers",  "No Box or Papers"]
       ],
       "modified": [
-        [ "any", "Any" ],
         [ "no", "No" ],
         [ "yes", "Yes" ]
       ]
