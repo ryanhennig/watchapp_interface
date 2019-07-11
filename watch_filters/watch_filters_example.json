@@ -1,55 +1,68 @@
 {
-  "brand": "Rolex",
-  "reference_number": "FAKE123",
-  "data_format_version": "0.1",
-  "generated_at_utc": "2019-07-08 05:30:00",
-  "filter_choices": {
-    "dial_color": [
-      [ "any", "Any" ],
-      [ "white", "White" ],
-      [ "black", "Black" ],
-      [ "green", "Green" ]
-    ],
-    "dial_markers": [
-      [ "any", "Any" ],
-      [ "stick", "Stick" ],
-      [ "dot", "Dot" ]
-    ],
-    "bezel_type": [
-      [ "any", "Any" ],
-      [ "fluted", "Fluted" ],
-      [ "sport", "Sport" ],
-      [ "smooth", "Smooth" ]
-    ],
-    "case_material": [
-      [ "any", "Any" ],
-      [ "silver", "Silver" ],
-      [ "gold", "Gold" ]
-    ],
-    "size": [
-      [ "any", "Any" ],
-      [ "small", "Small" ],
-      [ "big", "Big" ]
-    ],
-    "bracelet": [
-      [ "any", "Any" ],
-      [ "white_gold", "White Gold" ],
-      [ "stainless_steel", "Stainless Steel" ]
-    ],
-    "condition": [
-      [ "any", "Any" ],
-      [ "new", "New" ],
-      [ "old", "Old" ]
-    ],
-    "box_and_papers": [
-      [ "any", "Any" ],
-      [ "no_papers", "No Papers" ],
-      [ "all_papers", "All Papers" ]
-    ],
-    "modified": [
-      [ "any", "Any" ],
-      [ "no", "No" ],
-      [ "yes", "Yes" ]
-    ]
+  "cache_key": {
+    "_comment" : "This block contains elements which should be used to do cache lookup",
+    "brand": "Rolex",
+    "reference_number": "FAKE123",
+    "user_language": "en-us"
+  },
+  "metadata": {
+    "_comment" : "This block is used to determine the age of the data",
+    "data_format_name": "watch_filters",
+    "data_format_version": "0.1",
+    "generated_at_utc": "2019-07-08 05:30:00"
+  },
+  "response_data": {
+    "_comment1" : "Each filter choice is keyed by the name of the filter.",
+    "_comment2" : "The value is a list of (field name, display text) tuples.",
+    "_comment3" : "The display text may be in a different language in the future",
+    "filter_choices": {
+      "dial_color": [
+        [ "any", "Any" ],
+        [ "white", "White" ],
+        [ "black", "Black" ],
+        [ "green", "Green" ]
+      ],
+      "dial_markers": [
+        [ "any", "Any" ],
+        [ "stick", "Stick" ],
+        [ "dot", "Dot" ]
+      ],
+      "bezel_type": [
+        [ "any", "Any" ],
+        [ "fluted", "Fluted" ],
+        [ "sport", "Sport" ],
+        [ "smooth", "Smooth" ]
+      ],
+      "case_material": [
+        [ "any", "Any" ],
+        [ "silver", "Silver" ],
+        [ "gold", "Gold" ]
+      ],
+      "size": [
+        [ "any", "Any" ],
+        [ "small", "Small" ],
+        [ "big", "Big" ]
+      ],
+      "bracelet": [
+        [ "any", "Any" ],
+        [ "white_gold", "White Gold" ],
+        [ "stainless_steel", "Stainless Steel" ]
+      ],
+      "condition": [
+        [ "any", "Any" ],
+        [ "new", "New" ],
+        [ "old", "Old" ]
+      ],
+      "box_and_papers": [
+        [ "any", "Any" ],
+        [ "no_papers", "No Papers" ],
+        [ "all_papers", "All Papers" ]
+      ],
+      "modified": [
+        [ "any", "Any" ],
+        [ "no", "No" ],
+        [ "yes", "Yes" ]
+      ]
+    }
   }
 }
