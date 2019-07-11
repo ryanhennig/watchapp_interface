@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "_comment" : "This block is used to determine the age of the data",
+    "data_format_name": "sales_ticker",
+    "data_format_version": "0.1",
+    "generated_at_utc": "2019-07-08 05:30:00"
+  },
+  "response_data": {
+    "_comment" : "up to 100 items in the ticker_data array",
+    "ticker_data": [
+      {
+        "brand": "Rolex",
+        "reference_number": "FAKE123",
+        "sale_price": "1234.56 USD",
+        "margin": "15.5%"
+      },
+      {
+        "brand": "Rolex",
+        "reference_number": "FAKE567",
+        "sale_price": "5678.90 USD",
+        "margin": "42.5%"
+      }
+    ]
+  }
+}
