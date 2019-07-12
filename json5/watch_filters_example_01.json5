@@ -1,20 +1,20 @@
 {
   "cache_key": {
-    "_comment" : "This block contains elements which should be used to do cache lookup",
+    // This block contains elements which should be used to do cache lookup",
     "brand": "Rolex",
     "reference_number": "FAKE123",
     "user_language": "en-us"
   },
   "metadata": {
-    "_comment" : "This block is used to determine the age of the data",
+    // This block is used to determine the age of the data",
     "data_format_name": "watch_filters",
     "data_format_version": "0.1",
     "generated_at_utc": "2019-07-08 05:30:00"
   },
   "response_data": {
-    "_comment1" : "Each filter choice is keyed by the name of the filter.",
-    "_comment2" : "The value is a list of (field name, display text) tuples.",
-    "_comment3" : "The display text may be in a different language in the future",
+    // Each filter choice is keyed by the name of the filter.
+    // The value is a list of (field name, display text) tuples.
+    // The display text may be in a different language in the future
     "filter_choices": {
       "dial_color": [
         ["mother_of_pearl", "Mother of Pearl"],

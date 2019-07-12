@@ -1,16 +1,16 @@
 {
   "cache_key": {
-    "_comment" : "This block contains elements which are used to do cache lookup.",
+    // This block contains elements which are used to do cache lookup.
     "brand": "Rolex",
     "reference_number": "FAKE123",
     "user_language": "en-us",
     "filter_checksum": "GeneratedChecksumHere"
   },
   "request_data": {
-    "_comment1" : "This section is optional, intended mostly for frontend debugging",
-    "_comment2" : "The filters will be converted to a checksum for cache lookup",
+    // This section is optional, intended mostly for frontend debugging
+    // The filters will be converted to a checksum for cache lookup
     "filters": {
-      "_comment": "The filter selections use the unique DB identifier of each option",
+      // The filter selections use the unique DB identifier of each option
       "dial_color": "white",
       "dial_markers": "stick",
       "bezel_type": "sport",
@@ -23,14 +23,14 @@
     }
   },
   "metadata": {
-    "_comment1" : "This block is used to determine the age of the data",
-    "_comment2" : "If generated before the current month, histogram data may be invalid",
+    // This block is used to determine the age of the data
     "data_format_name": "free_pricing",
     "data_format_version": "0.1",
+    // If generated before the current month, histogram data may be invalid
     "generated_at_utc": "2019-07-08 05:30:00"
   },
   "response_data": {
-    "_comment" : "Currency codes included for future proofing",
+    // Currency codes included for future proofing
     "current_value": "1234.56 USD",
     "currently_for_sale_count": "1234",
     "avg_time_to_sale_hours": "1000",
@@ -40,14 +40,14 @@
     "picture_of_watch": "http://example.com/image.jpg",
     "avg_price_per_month_histogram":
     {
-      "_comment": "Up to 5 years of monthly data here.  01=January",
+      // Up to 5 years of monthly data here.  01=January",
       "2019-01": "1234.56 USD",
       "2019-02": "1234.56 USD",
       "2019-03": "1234.56 USD",
       "2019-04": "1234.56 USD",
       "2019-05": "1234.56 USD",
       "2019-06": "1234.56 USD",
-      "2019-07": "1234.56 USD",
-    },
+      "2019-07": "1234.56 USD"
+    }
   }
 }

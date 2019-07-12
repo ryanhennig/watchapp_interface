@@ -1,16 +1,16 @@
 {
   "cache_key": {
-    "_comment" : "This block contains elements which are used to do cache lookup.",
+    //This block contains elements which are used to do cache lookup.
     "brand": "Rolex",
     "reference_number": "FAKE123",
     "user_language": "en-us",
     "filter_checksum": "GeneratedChecksumHere"
   },
   "request_data": {
-    "_comment1" : "This section is optional, intended mostly for frontend debugging",
-    "_comment2" : "The filters will be converted to a checksum for cache lookup",
+    // This section is optional, intended mostly for frontend debugging
+    // The filters will be converted to a checksum for cache lookup
     "filters": {
-      "_comment": "The filter selections use the unique DB identifier of each option",
+      // The filter selections use the unique DB identifier of each option
       "dial_color": "white",
       "dial_markers": "stick",
       "bezel_type": "sport",
@@ -23,13 +23,13 @@
     }
   },
   "metadata": {
-    "_comment" : "This block is used to determine the age of the data",
+    //This block is used to determine the age of the data
     "data_format_name": "free_pricing",
     "data_format_version": "0.1",
     "generated_at_utc": "2019-07-08 05:30:00"
   },
   "response_data": {
-    "_comment" : "Price is given with currency code for future proofing",
+    //Price is given with currency code for future proofing
     "current_value": "1234.56 USD"
   }
 }

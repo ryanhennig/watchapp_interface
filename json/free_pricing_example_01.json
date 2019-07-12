@@ -1,0 +1,29 @@
+{
+  "cache_key": {
+    "brand": "Rolex",
+    "reference_number": "FAKE123",
+    "user_language": "en-us",
+    "filter_checksum": "GeneratedChecksumHere"
+  },
+  "request_data": {
+    "filters": {
+      "dial_color": "white",
+      "dial_markers": "stick",
+      "bezel_type": "sport",
+      "case_material": "gold",
+      "size": "small",
+      "bracelet": "white_gold",
+      "condition": "new",
+      "box_and_papers": "all_papers",
+      "modified": "no"
+    }
+  },
+  "metadata": {
+    "data_format_name": "free_pricing",
+    "data_format_version": "0.1",
+    "generated_at_utc": "2019-07-08 05:30:00"
+  },
+  "response_data": {
+    "current_value": "1234.56 USD"
+  }
+}
