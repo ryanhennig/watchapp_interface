@@ -10,6 +10,12 @@
     "generated_at_utc": "2019-07-08 05:30:00"
   },
   "response_data": {
+    "product": {
+      "brand": "Rolex",
+      "reference_number": "1601",
+      "model": "Datejust",
+      "complications": "Chronograph, Date"
+    },
     "filter_choices": {
       "dial_color": [
         [ "mother_of_pearl", "Mother of Pearl" ],
@@ -81,8 +87,7 @@
       "condition": [
         [ "new", "New" ],
         [ "like_new", "Like New" ],
-        [ "good", "Good" ],
-        [ "poor", "Poor" ]
+        [ "used", "Used" ]
       ],
       "box_and_papers": [
         [ "box", "Box" ],

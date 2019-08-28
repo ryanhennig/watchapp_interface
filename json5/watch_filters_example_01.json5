@@ -14,8 +14,8 @@
   "response_data": {
     "product": {
       "brand": "Rolex",
-      "reference_number": "FAKE123",
-      "model": "Yacht-Master",
+      "reference_number": "1601",
+      "model": "Datejust",
       "complications": "Chronograph, Date"
     },
     // Each filter choice is keyed by the name of the filter.
@@ -89,11 +89,11 @@
         ["leather",                        "Leather"],
         ["exotic_leather",                 "Exotic Leather"]
       ],
+      // These should be the same for every watch
       "condition": [
         ["new",      "New"],
         ["like_new", "Like New"],
-        ["good",     "Good"],
-        ["poor",     "Poor"]
+        ["used",     "Used"]
       ],
       "box_and_papers": [
         ["box",               "Box"],
