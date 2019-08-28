@@ -12,6 +12,12 @@
     "generated_at_utc": "2019-07-08 05:30:00"
   },
   "response_data": {
+    "product": {
+      "brand": "Rolex",
+      "reference_number": "FAKE123",
+      "model": "Yacht-Master",
+      "complications": "Chronograph, Date"
+    },
     // Each filter choice is keyed by the name of the filter.
     // The value is a list of (field name, display text) tuples.
     // The display text may be in a different language in the future

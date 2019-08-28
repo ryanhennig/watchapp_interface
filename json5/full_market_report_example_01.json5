@@ -4,7 +4,7 @@
     "brand": "Rolex",
     "reference_number": "FAKE123",
     "user_language": "en-us",
-    "filter_checksum": "GeneratedChecksumHere"
+    "option_name_checksum": "GeneratedChecksumHere"
   },
   "request_data": {
     // This section is optional, intended mostly for frontend debugging
@@ -24,8 +24,8 @@
   },
   "metadata": {
     // This block is used to determine the age of the data
-    "data_format_name": "free_pricing",
-    "data_format_version": "0.1",
+    "data_format_name": "market_report",
+    "data_format_version": "0.2",
     // If generated before the current month, histogram data may be invalid
     "generated_at_utc": "2019-07-08 05:30:00"
   },
@@ -33,7 +33,7 @@
     // Currency codes included for future proofing
     "current_value": "1234.56 USD",
     "currently_for_sale_count": "1234",
-    "avg_time_to_sale_hours": "1000",
+    "mean_time_to_sale_hours": "1000",
     "lowest_current_price": "1234.56 USD",
     "year_over_year_change": "-12.3%",
     "volume_sold_30_days": "5678",
@@ -48,6 +48,18 @@
       "2019-05": "1234.56 USD",
       "2019-06": "1234.56 USD",
       "2019-07": "1234.56 USD"
-    }
+    },
+    "listing_links": [
+      {
+        "text": "eBay",
+        "url": "http://ebay.com",
+        "price": "$10,450",
+      },
+      {
+        "text": "Chrono24",
+        "url": "http://Chrono24.com",
+        "price": "$10,300",
+      }
+    ]
   }
 }
